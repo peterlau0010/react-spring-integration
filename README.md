@@ -72,7 +72,7 @@ Check the react-frontend folder structure that contain build folder
 
 ## React web is ready!!!!
 
-# 3. Integrate two projects
+# 3.) Integrate two projects
 
 Copy all the files/folders inside react-frontend/build to spring-boot-backend/target/classes/public. Final struct like below.
 
