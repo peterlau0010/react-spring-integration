@@ -30,6 +30,7 @@ cd react-frontend
 npm start
 ```
 ￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/npm%20start.tiff)
+
 Now you will able to see the react js fontend.
 
 Stop the services by press Ctrl + C
