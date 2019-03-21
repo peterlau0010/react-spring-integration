@@ -48,9 +48,17 @@ Run below cmd (Make sure your spring-boot-backend is up and running) otherwise, 
 npm start 
 ```
 
+
 ￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20fail.tiff)
-￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20success.tiff)
 ￼￼
+
+(If you hit this error, you need to make sure your spring boot backend is up and running)
+
+![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20success.tiff)
+￼￼
+
+(Success to connect spring)
+
 Stop the services by press Ctrl + C
 
 Run below cmd to build react project 
@@ -74,7 +82,7 @@ Restart the spring-boot-backend App.
 
 ￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/final%20resutl.tiff)
 
-You can seethat react is already intergrated with spring!!!! Running at port 8080
+React is already intergrated with spring!!!! Running at port 8080
 
 Done
 
