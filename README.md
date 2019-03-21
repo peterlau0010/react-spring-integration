@@ -1,7 +1,7 @@
 # react-spring-integration
 Integratie the react.js frontend and spring boot backend
 
-1.) Backend - Spring Boot App Setting 
+# 1.) Backend - Spring Boot App Setting 
 
 Create Spring Boot App by using Eclipse or Sprint Tool Suit
 
@@ -18,10 +18,10 @@ Add a folder named “public” under spring-boot-backend/target/classes/
 ￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/add%20public%20folder.tiff)
 
 
-Run the application, spring boot backend is ready!!!!
+## Run the application, spring boot backend is ready!!!!
 
 
-2.) Frontend - React Web Setting
+# 2.) Frontend - React Web Setting
 
 Create React App by running below cmd:
 ```
@@ -39,25 +39,41 @@ Update react-frontend/package.json setting. Add proxy setting point to your spri
 
 
 Update react-frontend/src/App.js for testing the connection.
-￼￼![alt text](￼https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/add%20Call%20in%20React.tiff)
+￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/call%20to%20testController.tiff)
 
-Command: npm start 
-(Make sure you spring-boot-backend is up and running) otherwise, you will can error.
+Run below cmd (Make sure your spring-boot-backend is up and running) otherwise, you will can error.
+
+```
+npm start 
+```
+
+￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20fail.tiff)
+￼￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20success.tiff)
 ￼￼
-Stop the services. Ctrl +C
+Stop the services by press Ctrl + C
 
-Command: npm run build
-￼
+Run below cmd to build react project 
+
+```
+npm run build
+```
 
 Check the react-frontend folder structure that contain build folder
-￼
+![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/react%20build%20folder.tiff)
 
-3. Integrate two projects
+## React web is ready!!!!
 
-Copy all the files/folders inside react-frontend/build to spring-boot-backend/target/classes/public
+# 3. Integrate two projects
 
-￼
-Restart the spring-boot-backend App.
-￼
+Copy all the files/folders inside react-frontend/build to spring-boot-backend/target/classes/public. Final struct like below.
+
+![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/integrated%20spring%20and%20react.tiff)
+
+Restart the spring-boot-backend App. 
+
+￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/final%20resutl.tiff)
+
+You can seethat react is already intergrated with spring!!!! Running at port 8080
+
 Done
 
