@@ -6,7 +6,7 @@ Integratie the react.js frontend and spring boot backend
 Create Spring Boot App by using Eclipse or Sprint Tool Suit
 
 pom.xml (Default)
-￼![alt text](https://raw.githubusercontent.com/peterlau0010/react-spring-integration/master/Readme%20Image/pom.xml.jpg)
+￼![alt text](https://user-images.githubusercontent.com/9346306/54795730-56616f00-4c88-11e9-91d5-98ac9b47cc8d.jpg)
 
 Add a TestController for connection test
 ￼
