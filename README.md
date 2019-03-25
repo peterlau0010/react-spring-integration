@@ -35,6 +35,7 @@ Now you will able to see the react js fontend.
 Stop the services by press Ctrl + C
 
 Update react-frontend/package.json setting. Add proxy setting point to your sprint-boot-backend. Also add homepage setting.
+
 ![alt text](https://github.com/peterlau0010/react-spring-integration/blob/master/Readme%20Image/Screen%20Shot%202019-03-25%20at%204.16.59%20PM.jpg?raw=true)
 
 Update react-frontend/src/App.js for testing the connection.
